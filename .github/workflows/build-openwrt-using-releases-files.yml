@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       source_branch:
-        description: "openwrt-24.10.7"
+        description: "Select the source branch"
         required: false
         default: "all"
         type: choice
